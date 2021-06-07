@@ -1,0 +1,15 @@
+---
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: test-oidc-plugin
+  namespace: default
+config:
+  session_secret: superman
+  client_auth:
+  - client_secret_superman_auth
+  session_redis_auth: redis_superman_auth
+  client_secret:
+  - superman_client_secret
+  client_id:
+  - superman_client_id
