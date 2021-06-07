@@ -11,7 +11,7 @@ Kubernetes Workload Deployment Workbench
   - Overlay: [kongplugin crd kustomization](https://github.com/usrbinkat/devskill-k8s-deploy-overlay)
 
 ```sh
-kustomize build https://github.com/usrbinkat/devskill-k8s-deploy-overlay
+kustomize build https://github.com/usrbinkat/devskill-k8s-deploy-overlay?ref=main
 ```
 
 [kubectl]:https://kubernetes.io/docs/tasks/tools/install-kubectl-linux
